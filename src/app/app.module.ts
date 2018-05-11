@@ -9,6 +9,8 @@ import { RegisterComponent } from './register/register.component';
 import { HttpModule } from '@angular/http';
 import { routing} from './app.router';
 import {FormsModule} from '@angular/forms';
+import { AdminComponent } from './shared/admin/admin.component';
+import { UserComponent } from './shared/user/user.component';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import {FormsModule} from '@angular/forms';
     HomeComponent,
     LoginComponent,
     RegisterComponent,
+    AdminComponent,
+    UserComponent,
   ],
   imports: [
     BrowserModule,
