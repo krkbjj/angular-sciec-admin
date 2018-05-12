@@ -9,7 +9,7 @@ import { RegisterComponent } from './register/register.component';
 import { HttpModule } from '@angular/http';
 import { routing} from './app.router';
 import {FormsModule} from '@angular/forms';
-
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import {FormsModule} from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    HttpModule,
+    HttpClientModule,
     FormsModule,
     routing
   ],
