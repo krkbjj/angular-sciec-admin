@@ -11,6 +11,7 @@ import { routing} from './app.router';
 import {FormsModule} from '@angular/forms';
 import { AdminComponent } from './shared/admin/admin.component';
 import { UserComponent } from './shared/user/user.component';
+import { OrgaComponent } from './shared/orga/orga.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { UserComponent } from './shared/user/user.component';
     RegisterComponent,
     AdminComponent,
     UserComponent,
+    OrgaComponent,
   ],
   imports: [
     BrowserModule,
