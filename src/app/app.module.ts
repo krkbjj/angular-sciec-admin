@@ -9,7 +9,9 @@ import { RegisterComponent } from './register/register.component';
 import { HttpModule } from '@angular/http';
 import { routing} from './app.router';
 import {FormsModule} from '@angular/forms';
-import {HttpClientModule} from "@angular/common/http";
+import { AdminComponent } from './shared/admin/admin.component';
+import { UserComponent } from './shared/user/user.component';
+
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import {HttpClientModule} from "@angular/common/http";
     HomeComponent,
     LoginComponent,
     RegisterComponent,
+    AdminComponent,
+    UserComponent,
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
+    HttpModule,
     FormsModule,
     routing
   ],
