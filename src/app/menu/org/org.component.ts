@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-orga',
-  templateUrl: './orga.component.html',
-  styleUrls: ['./orga.component.css']
+  templateUrl: './org.component.html',
+  styleUrls: ['./org.component.css']
 })
-export class OrgaComponent implements OnInit {
+export class OrgComponent implements OnInit {
 
   constructor() { }
 

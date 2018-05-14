@@ -4,14 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './auth/login/login.component';
+import { RegisterComponent } from './auth/register/register.component';
 import { HttpModule } from '@angular/http';
 import { routing} from './app.router';
 import {FormsModule} from '@angular/forms';
 import { AdminComponent } from './menu/admin/admin.component';
 import { UserComponent } from './menu/user/user.component';
-import { OrgaComponent } from './menu/orga/orga.component';
+import { OrgComponent } from './menu/org/org.component';
 
 
 @NgModule({
@@ -22,7 +22,7 @@ import { OrgaComponent } from './menu/orga/orga.component';
     RegisterComponent,
     AdminComponent,
     UserComponent,
-    OrgaComponent,
+    OrgComponent,
   ],
   imports: [
     BrowserModule,
