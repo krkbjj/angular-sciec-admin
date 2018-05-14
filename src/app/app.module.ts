@@ -9,9 +9,9 @@ import { RegisterComponent } from './register/register.component';
 import { HttpModule } from '@angular/http';
 import { routing} from './app.router';
 import {FormsModule} from '@angular/forms';
-import { AdminComponent } from './shared/admin/admin.component';
-import { UserComponent } from './shared/user/user.component';
-import { OrgaComponent } from './shared/orga/orga.component';
+import { AdminComponent } from './menu/admin/admin.component';
+import { UserComponent } from './menu/user/user.component';
+import { OrgaComponent } from './menu/orga/orga.component';
 
 
 @NgModule({

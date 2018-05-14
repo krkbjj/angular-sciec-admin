@@ -4,8 +4,8 @@ import {ModuleWithProviders} from '@angular/core';
 import {HomeComponent} from './home/home.component';
 import {RegisterComponent} from './register/register.component';
 import {LoginComponent} from './login/login.component';
-import {UserComponent} from './shared/user/user.component';
-import {AdminComponent} from './shared/admin/admin.component';
+import { AdminComponent } from './menu/admin/admin.component';
+import { UserComponent } from './menu/user/user.component';
 
 
 const APP_ROUTES: Routes = [
