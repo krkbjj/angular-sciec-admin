@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { TextMaskModule } from 'angular2-text-mask';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -25,6 +25,8 @@ import { OrgComponent } from './menu/org/org.component';
     OrgComponent,
   ],
   imports: [
+    FormsModule,
+    TextMaskModule,
     BrowserModule,
     HttpModule,
     FormsModule,

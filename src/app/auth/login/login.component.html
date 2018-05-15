@@ -6,7 +6,7 @@
         <form class="form-signin">
           <h1 class="h3 mb-3 font-weight-normal">Faça seu login</h1>
           <label for="inputCPF">CPF</label>
-          <input type="text" id="inputCPF" class="form-control" placeholder="123.456.678-90" required autofocus>
+          <input type="text" id="inputCPF" [textMask]="{mask: maskcpf}" [(ngModel)]="myModel"class="form-control" placeholder="123.456.678-90" required autofocus>
           <label for="inputSenha">Senha</label>
           <input type="password" id="inputSenha" class="form-control" placeholder="Insira sua senha..." required>
           <br>
