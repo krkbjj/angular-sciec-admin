@@ -12,7 +12,7 @@ export class LoginComponent implements OnInit {
 
 
   public myModel = ''
-  public maskcpf = [/[0-11]/, /\d/, /\d/, '.' ,/\d/, /\d/, /\d/,'.',/\d/, /\d/,/\d/, '-', /\d/, /\d/]// mascara do cpf
+  public maskcpf = [/[0-9]/, /\d/, /\d/, '.' ,/\d/, /\d/, /\d/,'.',/\d/, /\d/,/\d/, '-', /\d/, /\d/]// mascara do cpf
 
 
 
