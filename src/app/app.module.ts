@@ -12,6 +12,8 @@ import {FormsModule} from '@angular/forms';
 import { AdminComponent } from './menu/admin/admin.component';
 import { UserComponent } from './menu/user/user.component';
 import { OrgComponent } from './menu/org/org.component';
+import { OrgMeusEventosComponent } from './menu/org/org-meus-eventos/org-meus-eventos.component';
+import { OrgControleFrequenciaComponent } from './menu/org/org-controle-frequencia/org-controle-frequencia.component';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { OrgComponent } from './menu/org/org.component';
     AdminComponent,
     UserComponent,
     OrgComponent,
+    OrgMeusEventosComponent,
+    OrgControleFrequenciaComponent,
   ],
   imports: [
     FormsModule,

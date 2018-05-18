@@ -6,6 +6,9 @@ import {RegisterComponent} from './auth/register/register.component';
 import {LoginComponent} from './auth/login/login.component';
 import { AdminComponent } from './menu/admin/admin.component';
 import { UserComponent } from './menu/user/user.component';
+import {OrgMeusEventosComponent} from './menu/org/org-meus-eventos/org-meus-eventos.component';
+import {OrgControleFrequenciaComponent} from './menu/org/org-controle-frequencia/org-controle-frequencia.component';
+import {OrgComponent} from './menu/org/org.component';
 
 
 const APP_ROUTES: Routes = [
@@ -13,6 +16,9 @@ const APP_ROUTES: Routes = [
   {path: 'register', component: RegisterComponent},
   {path: 'user', component: UserComponent},
   {path: 'admin', component: AdminComponent},
+  {path: 'org-meus-eventos', component: OrgMeusEventosComponent},
+  {path: 'org-controle-frequencia', component: OrgControleFrequenciaComponent},
+  {path: 'org', component: OrgComponent},
   {path: '', component: HomeComponent}
   ];
 
