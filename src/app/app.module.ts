@@ -14,6 +14,8 @@ import { UserComponent } from './menu/user/user.component';
 import { OrgComponent } from './menu/org/org.component';
 import { OrgMeusEventosComponent } from './menu/org/org-meus-eventos/org-meus-eventos.component';
 import { OrgControleFrequenciaComponent } from './menu/org/org-controle-frequencia/org-controle-frequencia.component';
+import { ProfileComponent } from './menu/user/profile/profile.component';
+import { SubscriptionComponent } from './menu/user/subscription/subscription.component';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import { OrgControleFrequenciaComponent } from './menu/org/org-controle-frequenc
     OrgComponent,
     OrgMeusEventosComponent,
     OrgControleFrequenciaComponent,
+    ProfileComponent,
+    SubscriptionComponent,
   ],
   imports: [
     FormsModule,
